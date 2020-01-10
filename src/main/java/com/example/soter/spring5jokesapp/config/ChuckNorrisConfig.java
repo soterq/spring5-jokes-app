@@ -1,6 +1,6 @@
 package com.example.soter.spring5jokesapp.config;
 
-import guru.springframework.norris.chuck.ChuckNorrisInfoContributor;
+import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class ChuckNorrisConfig {
 
     @Bean
-    public ChuckNorrisInfoContributor chuckNorrisInfoContributor() {
-        return new ChuckNorrisInfoContributor();
+    public ChuckNorrisQuotes chuckNorrisQuotes() {
+        return new ChuckNorrisQuotes();
     }
 }
